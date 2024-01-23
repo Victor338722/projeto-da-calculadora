@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+            <h2>simple calculator</h2>
+           <P><input id="one" name="one" type="text"></P>
+            <p><input id="two" name="two" type="text"></P>
+
+           <input checked id ="box1" name="sing-area" type="radio" value="somar"><b>+</b>
+           <input id="box2" name="sing-area" type="radio" value="subtrair"><b>-</b>
+           <input id="box3" name="sing-area" type="radio" value="multiplicar"><b>*</b>
+           <input id="box4" name="sing-area" type="radio" value="dividir"><b>/</b>
+           <p><button onclick="outcome()" type="button">calcule</button></p>
+            <h1 id="resultado"></h1>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
